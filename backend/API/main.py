@@ -16,21 +16,18 @@ scaler = joblib.load(r"./models/scaler.pkl")
 
 app = FastAPI()
 
-# at top of file
 from fastapi.middleware.cors import CORSMiddleware
 
-# after app = FastAPI()
 origins = [
-    "http://localhost:5173",   # Vite default dev server
+    "http://localhost:5173", 
     "http://127.0.0.1:5173",
-    "http://localhost:3000",   # create-react-app / other dev ports
-    "http://127.0.0.1:3000",
-    # add your deployed frontend origin(s) here when ready, e.g. "https://myapp.example.com"
+    "http://localhost:3000", 
+    "http://127.0.0.1:3000"
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,      # or ["*"] for quick testing (not recommended for production)
+    allow_origins="*",      # or ["*"] for quick testing (not recommended for production)
     allow_credentials=True,
     allow_methods=["*"],        # allows POST, GET, OPTIONS, etc.
     allow_headers=["*"],        # allows Content-Type, Authorization, custom headers, ...
