@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6; /* purple */
+  background: #ffffff;
+  color: #1e293b;
+  outline: none;
+  transition: box-shadow .12s ease;
+}
+
+.my-input:focus {
+  box-shadow: 0 0 0 2px #22c55e55; /* green glow */
+}
