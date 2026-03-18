@@ -177,7 +177,7 @@ const FetchedData = () => {
         </button>
       </div>
 
-      {loading && <p>Loading predictions...</p>}
+      {loading && <p> It may take a minute please wait! loading predictions...</p>}
       {error && <p style={{ color: "#c084fc" }}>{error}</p>}
 
       {plot && (
