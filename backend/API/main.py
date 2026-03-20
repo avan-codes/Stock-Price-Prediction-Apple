@@ -27,10 +27,10 @@ origins = [
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins="*",      # or ["*"] for quick testing (not recommended for production)
+    allow_origins="*",     
     allow_credentials=True,
-    allow_methods=["*"],        # allows POST, GET, OPTIONS, etc.
-    allow_headers=["*"],        # allows Content-Type, Authorization, custom headers, ...
+    allow_methods=["*"],       
+    allow_headers=["*"],     
 )
 class Data(BaseModel):
     last_100: List[float] = Field(..., description="Last 100 closing prices of the stock")
