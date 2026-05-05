@@ -176,7 +176,7 @@ Predict future stock prices.
 ```json
 {
   "prediction": [134.2,135.1,136.4],
-  "plot": "base64-image"
+  "plot": "base64-image "
 }
 ```
 
