@@ -7,7 +7,7 @@ export const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
-  timeout: 30000,
+  timeout: 100000000000,
 });
 
 export async function predictStock({ last_100, n_days, return_plot }) {
