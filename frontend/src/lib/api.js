@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = import.meta.env.VITE_API_BASE_URL || 'https://stock-sight-pranjal-main.onrender.com';
+const baseURL = import.meta.env.VITE_API_BASE_URL || 'https://prediction-of-stocks-app-latest.onrender.com';
 
 export const api = axios.create({
   baseURL,
