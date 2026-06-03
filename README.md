@@ -26,18 +26,6 @@ Download => http://rudra-xploits.netlify.app/files/apple_stocks.csv
 
 
 
-# 🚀 Demo
-
-🎥 Project Demo Video  
-
-<video controls src="https://github.com/avan-codes/Stock-Price-Prediction-Apple/blob/main/demo/Project%20Presentation.mp4" title="──"></video>
-
-
-
-Demo Video Link 
-(https://rudra-xploits.netlify.app/trash_but_imp/Project_Presentation.mp4)
-
-
 ---
 
 # 🧠 Problem Statement
