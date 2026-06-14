@@ -8,10 +8,7 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
         <div className="grid gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
           <div>
-            <div className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-gray-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-gray-600">
-              <SparkIcon className="h-4 w-4" />
-              AI stock forecasting
-            </div>
+           
             <h1 className="mt-6 max-w-3xl text-5xl font-black tracking-tighter text-black sm:text-6xl lg:text-7xl">
               AI‑Powered Stock Forecasting
             </h1>
